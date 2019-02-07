@@ -1,0 +1,32 @@
+{
+  "name": "lhellemons/php-money",
+  "version": "1.0.0-alpha.1",
+  "description": "The Money pattern as value objects",
+  "keywords": ["PHP", "money", "pattern", "value object"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Laurens Hellemons",
+      "email": "lhellemons@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "lhellemons/php-value-objects": "^1.0@alpha"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "SolidPhp\\Money\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\SolidPhp\\Money\\": "test/"
+    }
+  }
+}
